@@ -1,0 +1,1 @@
+This is just the css plugin from curl.js, atm.  It works fine as a load-time plugin with requirejs, but not as a build-time plugin with r.js.

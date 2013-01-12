@@ -31,6 +31,7 @@ requirejs.config({
 	//require: 'lib/requirejs/require',
 		i18n: 'lib/requirejs/i18n',
 		text: 'lib/requirejs/text',
+		css: 'lib/curl/css',
 		"wire/domReady": 'lib/domReady',
 		jquery_ui: 'lib/jquery-ui-custom',
 		jsbeautify: 'lib/beautify',

@@ -1,0 +1,34 @@
+.dialog_popup {
+	display: none;
+	margin: auto;
+	width: 30em;
+}
+
+.dialog_popup.dialog_visible {
+	display: block;
+}
+
+.dialog_popup .error_message {
+	display: none;
+}
+
+.dialog_popup.dialog_error .error_message {
+	display: block;
+}
+
+.dialog_popup .dialog_buttons {
+	float: right;
+}
+
+.dialog_popup .dialog_buttons button {
+	margin-right: 2em;
+}
+
+#dialogs {
+	display: none;
+	position: absolute;
+	top: 5em;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
